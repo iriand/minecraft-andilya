@@ -9,6 +9,7 @@
         "main.ts",
         "greeting.ts",
         "path.ts",
+        "agent-path.ts",
         "README.md"
     ],
     "supportedTargets": [

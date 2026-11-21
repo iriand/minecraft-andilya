@@ -7,5 +7,9 @@ namespace educationStarter {
         player.onChat("path", function (length) {
             educationStarter.buildPath(length)
         })
+
+        player.onChat("agentpath", function (length) {
+            educationStarter.buildAgentPath(length)
+        })
     }
 }
