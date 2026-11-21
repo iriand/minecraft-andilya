@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "lib": ["ES5"],
+        "module": "none",
+        "noEmit": true,
+        "strict": true
+    },
+    "include": ["*.ts"]
+}
