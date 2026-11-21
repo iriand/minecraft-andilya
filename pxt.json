@@ -1,0 +1,17 @@
+{
+    "name": "minecraft-education-starter",
+    "version": "0.0.1",
+    "description": "Пример проекта для Minecraft Education и MakeCode",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "greeting.ts",
+        "README.md"
+    ],
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
