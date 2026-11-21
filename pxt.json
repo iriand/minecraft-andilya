@@ -8,6 +8,7 @@
     "files": [
         "main.ts",
         "greeting.ts",
+        "path.ts",
         "README.md"
     ],
     "supportedTargets": [

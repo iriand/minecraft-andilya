@@ -1,13 +1,13 @@
 # Minecraft Education Starter
 
-Открой эту папку в VS Code. В `main.ts` регистрируются команды чата, а в `greeting.ts` написано действие команды `hello`. Каждый новый файл `.ts` добавляй в список `files` в `pxt.json`. В MakeCode этот язык называется JavaScript.
+Открой эту папку в редакторе. В `main.ts` регистрируются команды чата, в `greeting.ts` находится приветствие, а в `path.ts` — код постройки дорожки. Каждый новый файл с игровым кодом добавляй в список `files` в `pxt.json`. В MakeCode этот язык называется JavaScript.
 
 ## Загрузка в Minecraft Education
 
 1. Создай пустой публичный репозиторий на GitHub и отправь туда эти файлы. Они должны лежать в корне репозитория.
 
    ```bash
-   git add README.md main.ts greeting.ts pxt.json
+   git add README.md main.ts greeting.ts path.ts pxt.json makecode.d.ts tsconfig.json
    git commit -m "Start Minecraft Education project"
    git remote add origin https://github.com/USERNAME/REPO.git
    git push -u origin main
@@ -24,5 +24,11 @@
    ```
 
 5. Нажми **Play** в MakeCode и введи `hello` в игровом чате. В чате появится приветствие.
+
+## Дорожка с подсветкой
+
+Встань на ровной площадке, повернись в сторону будущей дорожки и введи `path 12` в игровом чате. Постройка начинается в одном блоке впереди. Дорожка состоит из полированного андезита, а справа от каждого четвёртого блока стоит светокамень. Стой на месте, пока дорожка строится. Можно указать длину от 1 до 32 блоков.
+
+Если расширение уже было подключено, после отправки изменений на GitHub удали его из проекта MakeCode и добавь заново, чтобы загрузить новую версию.
 
 [Руководство MakeCode по подключению расширения с GitHub](https://minecraft.makecode.com/extensions/publish)
