@@ -10,6 +10,8 @@
         "greeting.ts",
         "path.ts",
         "agent-path.ts",
+        "city-layout.ts",
+        "city.ts",
         "README.md"
     ],
     "supportedTargets": [
