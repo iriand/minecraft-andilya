@@ -24,6 +24,7 @@ declare namespace blocks {
 declare namespace agent {
     function teleport(position: Position, direction: number): boolean
     function getItemCount(slot: number): number
+    function getItemDetail(slot: number): number
     function setAssist(assist: number, enabled: boolean): void
     function setItem(item: number, count: number, slot: number): void
     function setSlot(slot: number): void
